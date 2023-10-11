@@ -53,7 +53,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView> 
-         {['SageScroll18144', 'MarcosEALima', 'weltonfelix'].map((githubuser) => (<InstaGitHubCard key = {githubuser} githubuser = {githubuser}/>   ))}
+         {['SageScroll18144', 'MarcosEALima', 'weltonfelix', 'emersontop', 'gabrielvasconcelos', 'einsteingustavo', 'AntonioSilva584', 'Mauro-Jorge'].map((githubuser) => (<InstaGitHubCard key = {githubuser} githubuser = {githubuser}/>   ))}
     </ScrollView>
     </SafeAreaView>
   );
